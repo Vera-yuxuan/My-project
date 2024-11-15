@@ -25,14 +25,6 @@ public class PlayerScore : MonoBehaviour
         Score = 0;
         Debug.Log("Started!");
     }
-    private IEnumerator IncreaseScoreOverTime()
-    {
-        while (true)
-        {
-            yield return new WaitForSeconds(1); 
-            score += 1;
-            Debug.Log("Score increased over time! Current score: " + Score);
-        }
-    }
+    
 
 }
