@@ -30,7 +30,7 @@ public class PlayerScore : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(1); 
-            Score += 1;
+            score += 1;
             Debug.Log("Score increased over time! Current score: " + Score);
         }
     }
